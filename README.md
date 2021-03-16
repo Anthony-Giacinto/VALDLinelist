@@ -42,4 +42,5 @@ If you do not wish to follow the instructions from the GMAIL API link, you may r
 
 ## On First Use
 * Make sure that you follow the GMAIL API link from *General Info* if you wish to use VALDEmail() or VALDDownload().
-* 
+* In VALDForm(), change:
+  1. 'email=""' to 'email=YOUR_EMAIL_ADDRESS'
