@@ -12,7 +12,9 @@ This script was meant for use with:
 * Dr. Gray's SPECTRUM v2.76 (https://www.appstate.edu/~grayro/spectrum/spectrum.html)  
 
 Some of these functions require the use of the GMAIL API for downloading requested VALD data. For those functions to work, you must follow the instrunctions given here:
-* https://developers.google.com/gmail/api/quickstart/python
+* https://developers.google.com/gmail/api/quickstart/python  
+
+You must keep the files that were generated from the GMAIL API instructions in the same directory as VALDLinelist.py.
 
 ## Start Up
 
