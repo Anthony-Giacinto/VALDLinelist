@@ -43,9 +43,9 @@ If you do not wish to follow the instructions from the GMAIL API link, you may r
 ## On First Use
 * Make sure that you follow the GMAIL API link from *General Info* if you wish to use VALDEmail() or VALDDownload().
 * In VALDForm(), change:
-  1. *email=""* --> *email=YOUR_EMAIL_ADDRESS*
-  2. *web_driver=""* --> *web_driver=LOCATION_OF_WEBDRIVER*
+  1. *email=""*  -->  *email=YOUR_EMAIL_ADDRESS*
+  2. *web_driver=""*  -->  *web_driver=LOCATION_OF_WEBDRIVER*
 * In VALDDownload(), change:
-  1. *email=""* --> *email=YOUR_EMAIL_ADDRESS*
-  2. *web_driver=""* --> *web_driver=LOCATION_OF_WEBDRIVER*
-  3. *download_folder=""* --> *download_folder=LOCATION_OF_YOUR_DOWNLOAD_FOLDER*
+  1. *email=""*  -->  *email=YOUR_EMAIL_ADDRESS*
+  2. *web_driver=""*  -->  *web_driver=LOCATION_OF_WEBDRIVER*
+  3. *download_folder=""*  -->  *download_folder=LOCATION_OF_YOUR_DOWNLOAD_FOLDER*
