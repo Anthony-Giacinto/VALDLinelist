@@ -14,7 +14,16 @@ This script was meant for use with:
 Some of these functions require the use of the GMAIL API for downloading requested VALD data. For those functions to work, you must follow the instrunctions given here:
 * https://developers.google.com/gmail/api/quickstart/python  
 
-You must keep the files that were generated from the GMAIL API instructions in the same directory as VALDLinelist.py.
+You must keep the files that were generated from the GMAIL API instructions in the same directory as VALDLinelist.py. This should allow VALDEmail() to access your gmail emails to look for emails send from VALD.  
+If you do not wish to follow the instructions from the GMAIL API link, you may remove VALDEmail() and VALDDownload() from VALDLinelist.py, and you may remove these imports from the script as well:
+* "import pickle"
+* "from googleapiclient.discovery import build"
+* "from google_auth_oauthlib.flow import InstalledAppFlow"
+* "from google.auth.transport.requests import Request"
+* "import base64"
+* "import datetime"
+* "import gzip"
+* "import time"
 
 ## Start Up
 
