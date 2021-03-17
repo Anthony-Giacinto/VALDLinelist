@@ -42,7 +42,7 @@ If you do not wish to follow the instructions from the GMAIL API link, you may r
 
 ## Functions
 * VALDForm(): Fills out the Extract All form on the VALD website ("http://vald.astro.uu.se/"). The VALD website might not give the full wavelength range of data. For large wavelength ranges, one must fill out multiple forms or use VALDDownload().
-* VALDEmail(): Uses the Gmail API to grab the newest email from VALD and returns the message along with the received date. This function requires a credentials.JSON file and a token.pickle file that gives this function permission to view your Gmail account.
+* VALDEmail(): Uses the Gmail API to grab the newest gmail email from VALD and returns the message along with the received date. This function requires a credentials.JSON file and a token.pickle file that gives this function permission to view your Gmail account.
 * VALDDownload(): Fills out the Extract All form on the VALD website ("http://vald.astro.uu.se/") as many times as needed to extract the desired wavelength range, accesses your Gmail emails from VALD to click the download links, and saves the un-zipped versions of the files to the desired output folder.
 * VALDFormat(): Updates the 4th element lines within a single line list so that they will work with Turbospectrum's "vald3line-BPz-freeformat". Use VALDCombineFormat if you also want to combine VALD files.
 * VALDCombineNoFormat(): Appends multiple VALD line lists together while NOT updating the 4th element lines.
