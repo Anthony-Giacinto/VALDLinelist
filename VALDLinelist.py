@@ -1,5 +1,6 @@
 """
-This script contains some functions for downloading and manipulating VALD formatted line lists.
+This script contains some functions for downloading and manipulating Vienna Atomic Line Database (VALD) formatted
+line lists.
 
 This code was meant for use with the VALD Database as of 2/15/21 (http://vald.astro.uu.se/~vald/php/vald.php)
 and for "vald3line-BPz-freeformat" as of 3/28/19 (https://www.lupm.in2p3.fr/users/plez/).
@@ -295,7 +296,7 @@ def VALDFormat(input_file, output_file, silent=True):
 
     stop_string = "* oscillator strengths"
     with open(input_file, "r") as fin:
-        with open(output_file, "w") as fout:
+        with open(output_file, "a") as fout:
             for line in fin:
                 if stop_string in line:
                     break
@@ -348,6 +349,9 @@ def VALDCombineFormat(input_folder, output_file, silent=True):
     :param silent: (bool) Will not print lines to the console (default is True).
     """
 
+    if os.path.exists(output_file):
+        os.remove(output_file)
+    
     for input_file in [file for file in os.listdir(input_folder) if os.path.isfile(os.path.join(input_folder, file))]:
         VALDFormat(input_folder + "\\" + input_file, output_file, silent=silent)
 
