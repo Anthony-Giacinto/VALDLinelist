@@ -1,5 +1,5 @@
 # VALDLinelist
-This script contains some functions for downloading and manipulating Vienna Atomic Line Database (VALD) formatted line lists. Can reformat a VALD3 line list for use with Dr. Gray's SPECTRUM or for Dr. Plez's line list re-formatting file, "vald3line-BPz-freeformat.f".
+This script contains some functions for downloading and manipulating Vienna Atomic Line Database (VALD) formatted line lists. Can reformat a VALD3 line list for use with Dr. Gray's SPECTRUM or for Dr. Plez's line list re-formatting file, "vald3line-BPz-freeformat.f" in TURBOSPECTRUM.
 
 ## Table of Contents
 * [General info](#general-info)
